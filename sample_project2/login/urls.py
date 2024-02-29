@@ -17,8 +17,8 @@ Including another URLconf
 from django.urls import path
 from .views import *
 
+
 urlpatterns = [
-    path('login/',login_view, name='login'),
     path('home/',home_view, name='home'),
     path('fhome/',fhome_view, name='faculty_home'),
     path('logout/',authlogout, name='logout'),
